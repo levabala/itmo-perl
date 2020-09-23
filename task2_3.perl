@@ -1,4 +1,4 @@
 while (<>) {
-  s/[aA]+/argh/;
+  s/\b[aA]+\b/argh/;
   print;
 }
